@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <td>${player.name}</td>
                         <td>${player.matches}</td>
                         <td>
-                            ...
+                            <button onclick="deletePlayer('${player.id}')">Delete</button>
                         </td>
                     `;
                     playerList.appendChild(row);
